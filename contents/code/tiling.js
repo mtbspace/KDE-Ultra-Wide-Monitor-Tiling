@@ -2,9 +2,11 @@
 
 var height = 1410; // allow for panels
 var width = 3440; // allow for panels
-var edgeWidth = 1024; // make centre column wider than outer columns
+var centreColumnWidth = 1584; // remaining space will be divided between outer columns
 
-var centreWidth = width - (edgeWidth * 2);
+var edgeWidth = Math.floor((width - centreColumnWidth) / 2);
+var sparePixels = width - centreColumnWidth - (2 * edgeWidth);
+var centreWidth = centreColumnWidth + sparePixels;
 var centreX = edgeWidth;
 var rightEdgeX = edgeWidth + centreWidth;
 
