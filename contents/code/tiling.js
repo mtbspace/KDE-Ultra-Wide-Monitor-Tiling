@@ -2,7 +2,7 @@
 
 var height = 1410; // allow for panels
 var width = 3440; // allow for panels
-var centreColumnWidth = 1584; // remaining space will be divided between outer columns
+var centreColumnWidth = 1400; // remaining space will be divided between outer columns
 
 var edgeWidth = Math.floor((width - centreColumnWidth) / 2);
 var sparePixels = width - centreColumnWidth - (2 * edgeWidth);
