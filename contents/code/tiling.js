@@ -80,7 +80,7 @@ registerShortcut("MoveWindowToCenterBottom", "Move Window to Center Bottom", "Me
   }
 });
 
-registerShortcut("MoveWindowToRightTop", "Move Window to Right Top", "Meta+Ctrl+9", function () {t
+registerShortcut("MoveWindowToRightTop", "Move Window to Right Top", "Meta+Ctrl+9", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
