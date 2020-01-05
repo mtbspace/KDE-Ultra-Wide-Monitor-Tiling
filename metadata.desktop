@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Ultra Wide Monitor Tiling
+Comment=Tile windows in 6 columns
+Icon=preferences-system-windows-script-test
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/tiling.js
+
+X-KDE-PluginInfo-Author=James
+X-KDE-PluginInfo-Email=james@mtb.space
+X-KDE-PluginInfo-Name=ultraWideMonitorTiling
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-ServiceTypes=KWin/Script
+Type=Service
