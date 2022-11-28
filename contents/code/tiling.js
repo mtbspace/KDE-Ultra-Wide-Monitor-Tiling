@@ -1,7 +1,7 @@
 // Don't use modern javascript
 
-var height = 1410; // allow for panels
-var width = 3440; // allow for panels
+var height = 1440; // adjust to allow for panels
+var width = 3440; // adjust to allow for panels
 var centreColumnWidth = 1400; // remaining space will be divided between outer columns
 
 var edgeWidth = Math.floor((width - centreColumnWidth) / 2);
@@ -10,7 +10,7 @@ var centreWidth = centreColumnWidth + sparePixels;
 var centreX = edgeWidth;
 var rightEdgeX = edgeWidth + centreWidth;
 
-registerShortcut("MoveWindowToLeftTop", "Move Window to Left Top", "Meta+Ctrl+Num+7", function () {
+registerShortcut("MoveWindowToLeftTop", "Move Window to Left Top", "Meta+Num+7", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -22,7 +22,7 @@ registerShortcut("MoveWindowToLeftTop", "Move Window to Left Top", "Meta+Ctrl+Nu
   }
 });
 
-registerShortcut("MoveWindowToLeftFullHeight", "Move Window to Left Full Height", "Meta+Ctrl+Num+4", function () {
+registerShortcut("MoveWindowToLeftFullHeight", "Move Window to Left Full Height", "Meta+Num+4", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -34,7 +34,7 @@ registerShortcut("MoveWindowToLeftFullHeight", "Move Window to Left Full Height"
   }
 });
 
-registerShortcut("MoveWindowToLeftBottom", "Move Window to Left Bottom", "Meta+Ctrl+Num+1", function () {
+registerShortcut("MoveWindowToLeftBottom", "Move Window to Left Bottom", "Meta+Num+1", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -46,7 +46,7 @@ registerShortcut("MoveWindowToLeftBottom", "Move Window to Left Bottom", "Meta+C
   }
 });
 
-registerShortcut("MoveWindowToCenterTop", "Move Window to Center Top", "Meta+Ctrl+Num+8", function () {
+registerShortcut("MoveWindowToCenterTop", "Move Window to Center Top", "Meta+Num+8", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -58,7 +58,7 @@ registerShortcut("MoveWindowToCenterTop", "Move Window to Center Top", "Meta+Ctr
   }
 });
 
-registerShortcut("MoveWindowToCenterFullHeight", "Move Window to Center Full Height", "Meta+Ctrl+Num+5", function () {
+registerShortcut("MoveWindowToCenterFullHeight", "Move Window to Center Full Height", "Meta+Num+5", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -70,7 +70,7 @@ registerShortcut("MoveWindowToCenterFullHeight", "Move Window to Center Full Hei
   }
 });
 
-registerShortcut("MoveWindowToCenterBottom", "Move Window to Center Bottom", "Meta+Ctrl+Num+2", function () {
+registerShortcut("MoveWindowToCenterBottom", "Move Window to Center Bottom", "Meta+Num+2", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -82,7 +82,7 @@ registerShortcut("MoveWindowToCenterBottom", "Move Window to Center Bottom", "Me
   }
 });
 
-registerShortcut("MoveWindowToRightTop", "Move Window to Right Top", "Meta+Ctrl+Num+9", function () {
+registerShortcut("MoveWindowToRightTop", "Move Window to Right Top", "Meta+Num+9", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -94,7 +94,7 @@ registerShortcut("MoveWindowToRightTop", "Move Window to Right Top", "Meta+Ctrl+
   }
 });
 
-registerShortcut("MoveWindowToRightFullHeight", "Move Window to Right Full Height", "Meta+Ctrl+Num+6", function () {
+registerShortcut("MoveWindowToRightFullHeight", "Move Window to Right Full Height", "Meta+Num+6", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {
@@ -106,7 +106,7 @@ registerShortcut("MoveWindowToRightFullHeight", "Move Window to Right Full Heigh
   }
 });
 
-registerShortcut("MoveWindowToRightBottom", "Move Window to Right Bottom", "Meta+Ctrl+Num+3", function () {
+registerShortcut("MoveWindowToRightBottom", "Move Window to Right Bottom", "Meta+Num+3", function () {
   var client = workspace.activeClient;
   if (client.moveable) {
     client.geometry = {

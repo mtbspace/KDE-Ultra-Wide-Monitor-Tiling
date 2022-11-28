@@ -1,6 +1,8 @@
 # KDE-Ultra-Wide-Monitor-Tiling
 Keyboard tiling shortcuts for 3440x1440 display
 
+Works will with sticky windows
+
 Script does not identify panels.  Edit the script to compensate.
 
 ### Install:
@@ -10,4 +12,4 @@ $ cd KDE-Ultra-Wide-Monitor-Tiling
 $ plasmapkg2 --type=kwinscript -i .
 ```
 ### Keyboard short cuts:
-ctrl + meta (windows key) + keypad numbers 1 - 9
+meta (windows key) + keypad numbers 1 - 9
